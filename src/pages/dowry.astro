@@ -1,0 +1,11 @@
+---
+import DowryEstimator from '../components/DowryEstimator.jsx';
+import BaseLayout from '../layouts/BaseLayout.astro';
+const pageTitle = 'محاسبه جهیزیه';
+---
+<BaseLayout pageTitle={pageTitle}>
+  <div dir="rtl">
+    <h2>برآورد هزینه جهیزیه بر اساس سطح انتخابی</h2>
+    <DowryEstimator client:load />
+  </div>
+</BaseLayout>

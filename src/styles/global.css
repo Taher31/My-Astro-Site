@@ -90,3 +90,24 @@ html.dark {
     display: none;
   }
 }
+
+.dowry-estimator table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.dowry-estimator button {
+  margin: 0.5rem 0;
+}
+
+.dowry-estimator th,
+.dowry-estimator td {
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.dowry-estimator tfoot td {
+  font-weight: bold;
+}
